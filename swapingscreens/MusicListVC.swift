@@ -16,13 +16,31 @@ class MusicListVC: UIViewController {
             view.backgroundColor = UIColor.lightGray
         // Do any additional setup after loading the view.
     }
+    @IBAction func backBtnPressed(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
+    }
 
+    @IBAction func loadScreenPressed(_ sender: Any) {
+        
+        let songTitle :Array = ["Who that boy","What","Rage"]
+        performSegue(withIdentifier: "PlaySongVC", sender: songTitle[0])
+    }
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? PlaySongVC
+        {
+            
+            if let song :String  = sender as? String {
+        destination.selectedSong = song
+            }
+        }
+    }
     /*
     // MARK: - Navigation
 

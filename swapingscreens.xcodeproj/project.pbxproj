@@ -15,6 +15,7 @@
 		9B23BE5A1F3A9FC800C4D9C3 /* swapingscreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23BE591F3A9FC800C4D9C3 /* swapingscreensTests.swift */; };
 		9B23BE651F3A9FC900C4D9C3 /* swapingscreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23BE641F3A9FC900C4D9C3 /* swapingscreensUITests.swift */; };
 		9B23BE731F3AA5D600C4D9C3 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23BE721F3AA5D600C4D9C3 /* MusicListVC.swift */; };
+		9B564CCA1F3F75C400D7C547 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B564CC91F3F75C400D7C547 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B23BE641F3A9FC900C4D9C3 /* swapingscreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapingscreensUITests.swift; sourceTree = "<group>"; };
 		9B23BE661F3A9FC900C4D9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B23BE721F3AA5D600C4D9C3 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		9B564CC91F3F75C400D7C547 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				9B23BE441F3A9FC800C4D9C3 /* AppDelegate.swift */,
+				9B564CC91F3F75C400D7C547 /* PlaySongVC.swift */,
 				9B23BE461F3A9FC800C4D9C3 /* LoginVC.swift */,
 				9B23BE481F3A9FC800C4D9C3 /* Main.storyboard */,
 				9B23BE4B1F3A9FC800C4D9C3 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B23BE731F3AA5D600C4D9C3 /* MusicListVC.swift in Sources */,
+				9B564CCA1F3F75C400D7C547 /* PlaySongVC.swift in Sources */,
 				9B23BE471F3A9FC800C4D9C3 /* LoginVC.swift in Sources */,
 				9B23BE451F3A9FC800C4D9C3 /* AppDelegate.swift in Sources */,
 			);
@@ -520,6 +524,7 @@
 				9B23BE6B1F3A9FC900C4D9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B23BE6C1F3A9FC900C4D9C3 /* Build configuration list for PBXNativeTarget "swapingscreensTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				9B23BE6E1F3A9FC900C4D9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B23BE6F1F3A9FC900C4D9C3 /* Build configuration list for PBXNativeTarget "swapingscreensUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				9B23BE711F3A9FC900C4D9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
